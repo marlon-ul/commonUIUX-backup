@@ -268,6 +268,10 @@ h1.ul-ui.header {
     border-right: none;
     padding: 1em;
 }
+.ul-ui.vertical.menu .item > .header:not(.ul-ui).active {
+    background: rgba(0, 0, 0, 0.03);
+    border-right: 4px solid #c02032;
+}
 /*==================================== LIST */
 .ul-ui.bulleted.list {
     margin-left: 1.25em;

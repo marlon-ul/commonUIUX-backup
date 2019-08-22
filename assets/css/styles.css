@@ -256,6 +256,13 @@ h1.ul-ui.header {
     background-color: rgba(0, 0, 0, 0.05);
     color: rgba(0, 0, 0, 0.85);
 }
+.ul-ui.vertical.menu .item .menu .link.item:hover:after, .ul-ui.vertical.menu .item .menu a.item:hover:after {
+    width: 0;
+}
+.ul-ui.link.menu .item:hover::after, .ul-ui.menu .link.item:hover::after, .ul-ui.menu a.item:hover::after {
+    width: 0;
+}
+
 /*==================================== LIST */
 .ul-ui.bulleted.list {
     margin-left: 1.25em;

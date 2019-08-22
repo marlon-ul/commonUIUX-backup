@@ -253,6 +253,21 @@ h1.ul-ui.header {
     box-shadow: none;
     border-right: 4px solid #c02032;
 }
+.ul-ui.vertical.menu .menu .item {
+    background: 0 0;
+    padding: 0.5em 1.25em;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.25em;
+}
+
+.ul-ui.vertical.menu .item {
+    display: block;
+    background: 0 0;
+    border-top: none;
+    border-right: none;
+    padding: 1em;
+}
 /*==================================== LIST */
 .ul-ui.bulleted.list {
     margin-left: 1.25em;

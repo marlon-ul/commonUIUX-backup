@@ -246,6 +246,13 @@ h1.ul-ui.header {
     width: 1px;
     background: rgba(34, 36, 38, 0.1);
 }
+.ul-ui.vertical.menu .active.item {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-right: 4px solid #c02032;
+}
 /*==================================== LIST */
 .ul-ui.bulleted.list {
     margin-left: 1.25em;
